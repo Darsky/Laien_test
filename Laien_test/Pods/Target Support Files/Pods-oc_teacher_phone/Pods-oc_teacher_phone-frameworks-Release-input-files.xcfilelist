@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-oc_teacher_phone/Pods-oc_teacher_phone-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/Toast/Toast.framework

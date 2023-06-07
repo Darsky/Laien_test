@@ -1,0 +1,30 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.17)
+  - Toast (3.1.0)
+
+DEPENDENCIES:
+  - FMDB
+  - MBProgressHUD (~> 1.0.0)
+  - MJRefresh (~> 3.1.15)
+  - Toast (~> 3.1.0)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - MBProgressHUD
+    - MJRefresh
+    - Toast
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
+  Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+
+PODFILE CHECKSUM: e6cbb35152b3088ef8754505fe1b29715e43f99f
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C0F767E24B416D4005555A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F767D24B416D4005555A3 /* AppDelegate.m */; };
+		7C0F768124B416D4005555A3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F768024B416D4005555A3 /* SceneDelegate.m */; };
+		7C0F768424B416D4005555A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F768324B416D4005555A3 /* ViewController.m */; };
+		7C0F768724B416D4005555A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0F768524B416D4005555A3 /* Main.storyboard */; };
+		7C0F768924B416D5005555A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C0F768824B416D5005555A3 /* Assets.xcassets */; };
+		7C0F768C24B416D5005555A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C0F768A24B416D5005555A3 /* LaunchScreen.storyboard */; };
+		7C0F768F24B416D5005555A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F768E24B416D5005555A3 /* main.m */; };
+		7C0F76E824B416FF005555A3 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0F769724B416FF005555A3 /* Constants.m */; };
+		7C45C5BA24BC077C00786802 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C45C5B924BC077C00786802 /* CoreImage.framework */; };
+		7C45C5C924BC561300786802 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C45C5C824BC561300786802 /* libz.tbd */; };
+		7C4C615624B6B2290060F375 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4C615524B6B2290060F375 /* Accelerate.framework */; };
+		7C4C615824B6B22F0060F375 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4C615724B6B22F0060F375 /* AudioToolbox.framework */; };
+		7C4C615A24B6B2370060F375 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4C615924B6B2370060F375 /* AVFoundation.framework */; };
+		7C4C615C24B6B23E0060F375 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4C615B24B6B23E0060F375 /* CoreMedia.framework */; };
+		7C4C615E24B6B2470060F375 /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4C615D24B6B2470060F375 /* CoreML.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7C4C616024B6B24E0060F375 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4C615F24B6B24E0060F375 /* CoreTelephony.framework */; };
+		7C4C616224B6B2580060F375 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4C616124B6B2580060F375 /* libc++.tbd */; };
+		7C4C616424B6B25F0060F375 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4C616324B6B25F0060F375 /* libresolv.tbd */; };
+		7C4C616624B6B2640060F375 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4C616524B6B2640060F375 /* SystemConfiguration.framework */; };
+		7C4C616824B6B26B0060F375 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4C616724B6B26B0060F375 /* VideoToolbox.framework */; };
+		7CBCDC8924B5E79100A2948E /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CBCDC8824B5E79100A2948E /* ReplayKit.framework */; };
+		9F3431EB05D3E4F1BF9FDBD0 /* Pods_oc_teacher_phone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C635593005B80432009F2C /* Pods_oc_teacher_phone.framework */; };
+		DEB1257E2A306BFA00FD28D8 /* OCFMDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB1257C2A306BFA00FD28D8 /* OCFMDBHelper.m */; };
+		DEB125862A306C6300FD28D8 /* ClockInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB125842A306C6300FD28D8 /* ClockInViewController.m */; };
+		DEB125872A306C6300FD28D8 /* ClockInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB125852A306C6300FD28D8 /* ClockInViewController.xib */; };
+		DEB1258D2A3073FC00FD28D8 /* DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB1258C2A3073FC00FD28D8 /* DateModel.m */; };
+		DEB125962A307F6A00FD28D8 /* ClockRecordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB125942A307F6A00FD28D8 /* ClockRecordCell.m */; };
+		DEB125972A307F6A00FD28D8 /* ClockRecordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEB125952A307F6A00FD28D8 /* ClockRecordCell.xib */; };
+		DEB1259A2A3081AC00FD28D8 /* ClockInRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB125992A3081AC00FD28D8 /* ClockInRecordModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C4C615424B6B20B0060F375 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		09CBEF8627282D608E714DE1 /* Pods-oc_teacher_phone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oc_teacher_phone.release.xcconfig"; path = "Target Support Files/Pods-oc_teacher_phone/Pods-oc_teacher_phone.release.xcconfig"; sourceTree = "<group>"; };
+		7C0F767924B416D4005555A3 /* oc_teacher_phone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oc_teacher_phone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C0F767C24B416D4005555A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C0F767D24B416D4005555A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C0F767F24B416D4005555A3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7C0F768024B416D4005555A3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7C0F768224B416D4005555A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7C0F768324B416D4005555A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C0F768624B416D4005555A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C0F768824B416D5005555A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C0F768B24B416D5005555A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C0F768D24B416D5005555A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C0F768E24B416D5005555A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C0F769724B416FF005555A3 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		7C0F769E24B416FF005555A3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7C0F76A124B416FF005555A3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7C45C5B924BC077C00786802 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		7C45C5C824BC561300786802 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7C4C615524B6B2290060F375 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7C4C615724B6B22F0060F375 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7C4C615924B6B2370060F375 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7C4C615B24B6B23E0060F375 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7C4C615D24B6B2470060F375 /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		7C4C615F24B6B24E0060F375 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7C4C616124B6B2580060F375 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7C4C616324B6B25F0060F375 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		7C4C616524B6B2640060F375 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7C4C616724B6B26B0060F375 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		7CBCDC8824B5E79100A2948E /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		85C635593005B80432009F2C /* Pods_oc_teacher_phone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oc_teacher_phone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE357B20E49A43D041DC69D /* Pods-oc_teacher_phone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oc_teacher_phone.debug.xcconfig"; path = "Target Support Files/Pods-oc_teacher_phone/Pods-oc_teacher_phone.debug.xcconfig"; sourceTree = "<group>"; };
+		DEB1257C2A306BFA00FD28D8 /* OCFMDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCFMDBHelper.m; sourceTree = "<group>"; };
+		DEB1257D2A306BFA00FD28D8 /* OCFMDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCFMDBHelper.h; sourceTree = "<group>"; };
+		DEB125832A306C6300FD28D8 /* ClockInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockInViewController.h; sourceTree = "<group>"; };
+		DEB125842A306C6300FD28D8 /* ClockInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockInViewController.m; sourceTree = "<group>"; };
+		DEB125852A306C6300FD28D8 /* ClockInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClockInViewController.xib; sourceTree = "<group>"; };
+		DEB1258B2A3073FC00FD28D8 /* DateModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateModel.h; sourceTree = "<group>"; };
+		DEB1258C2A3073FC00FD28D8 /* DateModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateModel.m; sourceTree = "<group>"; };
+		DEB125932A307F6A00FD28D8 /* ClockRecordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockRecordCell.h; sourceTree = "<group>"; };
+		DEB125942A307F6A00FD28D8 /* ClockRecordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockRecordCell.m; sourceTree = "<group>"; };
+		DEB125952A307F6A00FD28D8 /* ClockRecordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClockRecordCell.xib; sourceTree = "<group>"; };
+		DEB125982A3081AC00FD28D8 /* ClockInRecordModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockInRecordModel.h; sourceTree = "<group>"; };
+		DEB125992A3081AC00FD28D8 /* ClockInRecordModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockInRecordModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C0F767624B416D4005555A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C45C5C924BC561300786802 /* libz.tbd in Frameworks */,
+				7C4C615C24B6B23E0060F375 /* CoreMedia.framework in Frameworks */,
+				7C45C5BA24BC077C00786802 /* CoreImage.framework in Frameworks */,
+				7C4C616824B6B26B0060F375 /* VideoToolbox.framework in Frameworks */,
+				7C4C616624B6B2640060F375 /* SystemConfiguration.framework in Frameworks */,
+				7C4C616424B6B25F0060F375 /* libresolv.tbd in Frameworks */,
+				7C4C616224B6B2580060F375 /* libc++.tbd in Frameworks */,
+				7C4C616024B6B24E0060F375 /* CoreTelephony.framework in Frameworks */,
+				7C4C615E24B6B2470060F375 /* CoreML.framework in Frameworks */,
+				7C4C615A24B6B2370060F375 /* AVFoundation.framework in Frameworks */,
+				7C4C615824B6B22F0060F375 /* AudioToolbox.framework in Frameworks */,
+				7C4C615624B6B2290060F375 /* Accelerate.framework in Frameworks */,
+				7CBCDC8924B5E79100A2948E /* ReplayKit.framework in Frameworks */,
+				9F3431EB05D3E4F1BF9FDBD0 /* Pods_oc_teacher_phone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C0F767024B416D4005555A3 = {
+			isa = PBXGroup;
+			children = (
+				7C0F767B24B416D4005555A3 /* oc_teacher_phone */,
+				7C0F767A24B416D4005555A3 /* Products */,
+				AC6294322EA3A8350522CFBB /* Pods */,
+				CBB0481CF180F21B5AD6F380 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C0F767A24B416D4005555A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C0F767924B416D4005555A3 /* oc_teacher_phone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C0F767B24B416D4005555A3 /* oc_teacher_phone */ = {
+			isa = PBXGroup;
+			children = (
+				7C0F771724B4191D005555A3 /* Module */,
+				7C0F769524B416FF005555A3 /* Public */,
+				7C0F767C24B416D4005555A3 /* AppDelegate.h */,
+				7C0F767D24B416D4005555A3 /* AppDelegate.m */,
+				7C0F767F24B416D4005555A3 /* SceneDelegate.h */,
+				7C0F768024B416D4005555A3 /* SceneDelegate.m */,
+				7C0F768224B416D4005555A3 /* ViewController.h */,
+				7C0F768324B416D4005555A3 /* ViewController.m */,
+				7C0F768524B416D4005555A3 /* Main.storyboard */,
+				7C0F768824B416D5005555A3 /* Assets.xcassets */,
+				7C0F768A24B416D5005555A3 /* LaunchScreen.storyboard */,
+				7C0F768D24B416D5005555A3 /* Info.plist */,
+				7C0F768E24B416D5005555A3 /* main.m */,
+			);
+			path = oc_teacher_phone;
+			sourceTree = "<group>";
+		};
+		7C0F769524B416FF005555A3 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				DEB1257D2A306BFA00FD28D8 /* OCFMDBHelper.h */,
+				DEB1257C2A306BFA00FD28D8 /* OCFMDBHelper.m */,
+				7C0F769E24B416FF005555A3 /* Constants.h */,
+				7C0F769724B416FF005555A3 /* Constants.m */,
+				7C0F76A124B416FF005555A3 /* PrefixHeader.pch */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		7C0F771724B4191D005555A3 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				DEB1257B2A306B6300FD28D8 /* ClockIn */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		AC6294322EA3A8350522CFBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCE357B20E49A43D041DC69D /* Pods-oc_teacher_phone.debug.xcconfig */,
+				09CBEF8627282D608E714DE1 /* Pods-oc_teacher_phone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CBB0481CF180F21B5AD6F380 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C45C5C824BC561300786802 /* libz.tbd */,
+				7C45C5B924BC077C00786802 /* CoreImage.framework */,
+				7C4C616724B6B26B0060F375 /* VideoToolbox.framework */,
+				7C4C616524B6B2640060F375 /* SystemConfiguration.framework */,
+				7C4C616324B6B25F0060F375 /* libresolv.tbd */,
+				7C4C616124B6B2580060F375 /* libc++.tbd */,
+				7C4C615F24B6B24E0060F375 /* CoreTelephony.framework */,
+				7C4C615D24B6B2470060F375 /* CoreML.framework */,
+				7C4C615B24B6B23E0060F375 /* CoreMedia.framework */,
+				7C4C615924B6B2370060F375 /* AVFoundation.framework */,
+				7C4C615724B6B22F0060F375 /* AudioToolbox.framework */,
+				7C4C615524B6B2290060F375 /* Accelerate.framework */,
+				7CBCDC8824B5E79100A2948E /* ReplayKit.framework */,
+				85C635593005B80432009F2C /* Pods_oc_teacher_phone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEB1257B2A306B6300FD28D8 /* ClockIn */ = {
+			isa = PBXGroup;
+			children = (
+				DEB125812A306C3C00FD28D8 /* Model */,
+				DEB125802A306C3500FD28D8 /* View */,
+				DEB1257F2A306C2900FD28D8 /* Controller */,
+			);
+			path = ClockIn;
+			sourceTree = "<group>";
+		};
+		DEB1257F2A306C2900FD28D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEB125832A306C6300FD28D8 /* ClockInViewController.h */,
+				DEB125842A306C6300FD28D8 /* ClockInViewController.m */,
+				DEB125852A306C6300FD28D8 /* ClockInViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DEB125802A306C3500FD28D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEB125932A307F6A00FD28D8 /* ClockRecordCell.h */,
+				DEB125942A307F6A00FD28D8 /* ClockRecordCell.m */,
+				DEB125952A307F6A00FD28D8 /* ClockRecordCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEB125812A306C3C00FD28D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEB1258B2A3073FC00FD28D8 /* DateModel.h */,
+				DEB1258C2A3073FC00FD28D8 /* DateModel.m */,
+				DEB125982A3081AC00FD28D8 /* ClockInRecordModel.h */,
+				DEB125992A3081AC00FD28D8 /* ClockInRecordModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C0F767824B416D4005555A3 /* oc_teacher_phone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C0F769224B416D5005555A3 /* Build configuration list for PBXNativeTarget "oc_teacher_phone" */;
+			buildPhases = (
+				95D2B4DAE2338D799D8B419F /* [CP] Check Pods Manifest.lock */,
+				7C0F767524B416D4005555A3 /* Sources */,
+				7C0F767624B416D4005555A3 /* Frameworks */,
+				7C0F767724B416D4005555A3 /* Resources */,
+				CF82F80208055793AD0CAD4F /* [CP] Embed Pods Frameworks */,
+				7C4C615424B6B20B0060F375 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oc_teacher_phone;
+			productName = oc_teacher_phone;
+			productReference = 7C0F767924B416D4005555A3 /* oc_teacher_phone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C0F767124B416D4005555A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "朱伟铭";
+				TargetAttributes = {
+					7C0F767824B416D4005555A3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 7C0F767424B416D4005555A3 /* Build configuration list for PBXProject "oc_teacher_phone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C0F767024B416D4005555A3;
+			productRefGroup = 7C0F767A24B416D4005555A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C0F767824B416D4005555A3 /* oc_teacher_phone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C0F767724B416D4005555A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB125872A306C6300FD28D8 /* ClockInViewController.xib in Resources */,
+				DEB125972A307F6A00FD28D8 /* ClockRecordCell.xib in Resources */,
+				7C0F768C24B416D5005555A3 /* LaunchScreen.storyboard in Resources */,
+				7C0F768924B416D5005555A3 /* Assets.xcassets in Resources */,
+				7C0F768724B416D4005555A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95D2B4DAE2338D799D8B419F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oc_teacher_phone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF82F80208055793AD0CAD4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oc_teacher_phone/Pods-oc_teacher_phone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oc_teacher_phone/Pods-oc_teacher_phone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oc_teacher_phone/Pods-oc_teacher_phone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C0F767524B416D4005555A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C0F768424B416D4005555A3 /* ViewController.m in Sources */,
+				7C0F767E24B416D4005555A3 /* AppDelegate.m in Sources */,
+				DEB1258D2A3073FC00FD28D8 /* DateModel.m in Sources */,
+				DEB1259A2A3081AC00FD28D8 /* ClockInRecordModel.m in Sources */,
+				7C0F768F24B416D5005555A3 /* main.m in Sources */,
+				DEB1257E2A306BFA00FD28D8 /* OCFMDBHelper.m in Sources */,
+				DEB125962A307F6A00FD28D8 /* ClockRecordCell.m in Sources */,
+				7C0F768124B416D4005555A3 /* SceneDelegate.m in Sources */,
+				DEB125862A306C6300FD28D8 /* ClockInViewController.m in Sources */,
+				7C0F76E824B416FF005555A3 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C0F768524B416D4005555A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C0F768624B416D4005555A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C0F768A24B416D5005555A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C0F768B24B416D5005555A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C0F769024B416D5005555A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C0F769124B416D5005555A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C0F769324B416D5005555A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE357B20E49A43D041DC69D /* Pods-oc_teacher_phone.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 52;
+				DEVELOPMENT_TEAM = W83JD2DT92;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = W83JD2DT92;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/oc_teacher_phone/Public/OCLiveSDK/Lib",
+					"$(PROJECT_DIR)/oc_teacher_phone/Public/OCLiveSDK/Lib/PythoniOS",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/oc_teacher_phone/Public/PrefixHeader.pch";
+				INFOPLIST_FILE = oc_teacher_phone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/oc_teacher_phone/Public/OCLiveSDK/Lib/camera360",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hualeme.octeacherphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = iOSTeacherDevProfile1121;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = iOSTeacherDevProfile0131;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7C0F769424B416D5005555A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CBEF8627282D608E714DE1 /* Pods-oc_teacher_phone.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 52;
+				DEVELOPMENT_TEAM = W83JD2DT92;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = W83JD2DT92;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/oc_teacher_phone/Public/OCLiveSDK/Lib",
+					"$(PROJECT_DIR)/oc_teacher_phone/Public/OCLiveSDK/Lib/PythoniOS",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/oc_teacher_phone/Public/PrefixHeader.pch";
+				INFOPLIST_FILE = oc_teacher_phone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/oc_teacher_phone/Public/OCLiveSDK/Lib/camera360",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hualeme.octeacherphone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = iOSTeacherDevProfile1121;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = iOSTeacherDevProfile0131;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C0F767424B416D4005555A3 /* Build configuration list for PBXProject "oc_teacher_phone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C0F769024B416D5005555A3 /* Debug */,
+				7C0F769124B416D5005555A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C0F769224B416D5005555A3 /* Build configuration list for PBXNativeTarget "oc_teacher_phone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C0F769324B416D5005555A3 /* Debug */,
+				7C0F769424B416D5005555A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C0F767124B416D4005555A3 /* Project object */;
+}
